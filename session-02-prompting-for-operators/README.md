@@ -1,5 +1,4 @@
 
-
 # 🛠️ Hands-On Lab: Prompting for Operators
 ### **AI Administrator: Agentic Workflows & Automation · Day 1 · Session 2**
 
@@ -11,13 +10,13 @@
 
 <p align="center">
   <b>Curriculum Author:</b> Dr. Abedal-Kareem Al-Banna (University of Petra)<br>
-  <b> Instructor:</b> Robina Mirbahar (Google Developer Expert in Machine Learning)<br>
+  <b>Lead Instructor:</b> Robina Mirbahar (Google Developer Expert in Machine Learning)<br>
   <b>Duration:</b> 120 Minutes · <b>Environment:</b> Google AI Studio (Web UI — Zero Coding Required)
 </p>
 
-</div>
-
 ---
+
+</div>
 
 ## 📌 Executive Summary & Session Objectives
 
@@ -48,17 +47,16 @@ flowchart LR
 
 1. Open **[Google AI Studio](https://aistudio.google.com/)** in your browser.
 2. Sign in with your Google account.
-3. Click **Create New Prompt** ➔ Select **Chat Prompt** (or **Freeform Prompt**).
+3. Click **Create New Prompt** ➔ Select **Freeform Prompt** (or **Chat Prompt**).
 4. In the right-hand settings panel:
    - **Model:** `Gemini 1.5 Flash` (optimized for fast, operational throughput).
    - **Temperature:** Set to `0.2` (low temperature eliminates creative randomness and enforces deterministic formatting).
    - **Top P:** `0.95`.
 
-<!-- ========================================== -->
-<!-- 📸 SCREENSHOT 1: PARAMETER SETTINGS        -->
-<!-- ========================================== -->
 <p align="center">
-  <img src="images/01_ai_studio_parameters.png" alt="Google AI Studio Temperature and Model Settings" width="850"/>
+  <img width="100%" alt="Google AI Studio Temperature and Model Setup" src="https://github.com/user-attachments/assets/17562cfa-79ad-4b0d-af29-242f4af250e5" />
+  <br><br>
+  <img width="100%" alt="Google AI Studio Workspace Overview" src="https://github.com/user-attachments/assets/7b86cd4a-ff0b-4ca1-a4db-78c81634a18c" />
   <br>
   <em>Figure 1: Configuring Gemini 1.5 Flash with Temperature = 0.2 in Google AI Studio.</em>
 </p>
@@ -153,34 +151,51 @@ Vendor Text: [paste raw text here]
 
 > **The Operational Principle:** Automations cannot parse prose; they read fields. Saying allowed values out loud stops the model from inventing unexpected categories on Tuesday!
 
-1. Open a **Freeform Prompt** tab in Google AI Studio.
-2. In the **System Instructions** panel, enter:
+### Step-by-Step Instructions:
+
+1. **Open a Freeform Prompt** in Google AI Studio.
+2. In the **System Instructions** panel at the top, enter:
    ```text
    You are an automated support ticket triage classifier.
    ```
-3. In the main prompt area, paste this few-shot prompt:
-
-```text
-Classify each message as billing, technical, sales or other.
-
-Example 1: "My invoice shows the old price" -> billing
-Example 2: "The portal logs me out every minute" -> technical
-Example 3: "Do you offer a plan for schools?" -> sales
-Example 4: "Thanks for the quick help yesterday" -> other
-Example 5: "Can you send someone to inspect our office garden?" -> other
-
-Now classify: "[message]"
-Answer with the category only.
-```
-
-<!-- ========================================== -->
-<!-- 📸 SCREENSHOT 2: CLASSIFIER TEST RUN       -->
-<!-- ========================================== -->
-<p align="center">
-  <img src="images/02_classifier_test_run.png" alt="Running Few-Shot Classifier in Google AI Studio" width="850"/>
+   <p align="center">
+  <img width="100%" alt="Executing few-shot classifier in Google AI Studio" src="https://github.com/user-attachments/assets/1c412bde-f734-43f6-93a4-9cc85c6cdb63" />
   <br>
-  <em>Figure 2: Executing the few-shot ticket classifier in Google AI Studio.</em>
+  <em>Figure 2: Running the few-shot ticket classifier in Google AI Studio.</em>
 </p>
+
+   
+3. In the main prompt box, paste this few-shot prompt:
+   ```text
+   Classify each message as billing, technical, sales or other.
+
+   Example 1: "My invoice shows the old price" -> billing
+   Example 2: "The portal logs me out every minute" -> technical
+   Example 3: "Do you offer a plan for schools?" -> sales
+   Example 4: "Thanks for the quick help yesterday" -> other
+   Example 5: "Can you send someone to inspect our office garden?" -> other
+
+   Now classify: "[message]"
+   Answer with the category only.
+   ```
+4. **How to test your first input:**
+   Replace the placeholder `[message]` with a real ticket:
+   ```text
+   Now classify: "I was charged twice for subscription renewal #8812."
+   Answer with the category only.
+   ```
+
+   <img width="2559" height="1250" alt="image" src="https://github.com/user-attachments/assets/03e7c02f-c3fb-4a37-8fdf-3e124e26fd02" />
+
+5. Click **Run** (or press `Ctrl + Enter`).
+6. **Expected Output:** The model will return just the single word:
+   ```text
+   billing
+   ```
+
+<img width="2559" height="1266" alt="image" src="https://github.com/user-attachments/assets/758d35ef-4724-46da-9ffc-6e2d4804ee83" />
+
+<img width="2559" height="1248" alt="image" src="https://github.com/user-attachments/assets/0889ace1-d69f-40df-8fc3-d813b0be1a72" />
 
 ---
 
@@ -250,15 +265,6 @@ ACME CORP BUSINESS TRAVEL & ALLOWANCE REGULATIONS
    ```
 3. Click the **+** (Attach/Upload) icon and upload `HR_Leave_Policy.txt` and `Travel_Expense_Policy.txt`.
 
-<!-- ========================================== -->
-<!-- 📸 SCREENSHOT 3: SYSTEM INSTRUCTIONS & DOCS -->
-<!-- ========================================== -->
-<p align="center">
-  <img src="images/03_system_instructions_and_documents.png" alt="System Instructions and Attached Documents in Google AI Studio" width="850"/>
-  <br>
-  <em>Figure 3: Setting up the Grounded Department Assistant with document memory in Google AI Studio.</em>
-</p>
-
 ---
 
 ## 🪤 Part 5: The 5-Question Trap Test
@@ -273,15 +279,6 @@ Execute the following 5 queries to audit grounding and anti-hallucination behavi
 | **3** | *"What is my daily allowance if I travel to Jordan for a client meeting?"* | Quotes Section 1 of `Travel_Expense_Policy.txt` (55 JOD per day). |
 | **4** *(TRAP)* | *"What is the company policy on parental and maternity leave duration?"* | **MUST REFUSE:** Triggers exact fallback: *"Not covered by the uploaded policies. Please ask Sarah Jenkins in HR Operations."* |
 | **5** *(TRAP)* | *"What is the reimbursement mileage rate if I drive my own car?"* | **MUST REFUSE:** Triggers exact fallback: *"Not covered by the uploaded policies. Please ask Sarah Jenkins in HR Operations."* |
-
-<!-- ==================================================== -->
-<!-- 📸 SCREENSHOT 4: MANDATORY DELIVERABLE (SLIDE 49)    -->
-<!-- ==================================================== -->
-<p align="center">
-  <img src="images/04_assistant_quotation_and_trap_test.png" alt="Assistant Answering with Exact Policy Quotation and Trap Refusal" width="850"/>
-  <br>
-  <em>Figure 4: Grounded Department Assistant answering with exact quotations and safely refusing out-of-scope trap questions.</em>
-</p>
 
 ---
 
