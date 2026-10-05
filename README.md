@@ -1,6 +1,5 @@
 
 
-
 # 🏛️ IEEE CS Region 8 AI Caravan 2026
 ## **AI Administrator: Agentic Workflows & Automation**
 ### 🚀 Official Master Curriculum, Hands-On Labs & Operational Test Benches
@@ -35,53 +34,27 @@ Participants progress from understanding raw LLM boundaries to building producti
 
 ---
 
-## 📚 Master Lab Navigation & Curriculum Hub
+## 📅 Official Course Schedule & Master Curriculum Hub
+**Schedule:** Saturdays, Mondays & Wednesdays · 07:00 PM – 09:00 PM GMT · **Track:** AI Administrator (28 Hours Total)
 
-| Session | Module Title | Lab Focus & Deliverables | Lab Link |
-|:---:|:---|:---|:---:|
-| **01** | **Exploring Agents & Automations** | Agent vs. Automation taxonomy, ReAct loop, LLM boundaries, and the Task Inventory Deliverable (`M1-task-inventory`) | [📂 Session 01 Lab](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab) |
-| **02** | **Prompting for Operators** | 5-part prompt architecture, few-shot categorizers, 10-row test bench, grounded RAG assistant, and trap-testing (`M2-prompt-library`) | [📂 Session 02 Lab](./session-02-prompting-for-operators/) |
-| **03** | **Workflow Mapping I & II** | Translating human SOPs into deterministic process maps, finding AI insertion points (`M3-workflow-map`) | [📂 Session 03 Lab](./session-03-workflow-mapping/) |
-| **04** | **Automation Pipelines (n8n)** | Integrating LLMs into automated background webhooks, scheduled tasks, and JSON parsers (`M4-n8n-pipeline`) | [📂 Session 04 Lab](./session-04-n8n-automation/) |
-| **05** | **Tool-Augmented Agents** | Enabling external tools (Search, SQL, Calculators) with least-privilege tool security (`M5-agent-tools`) | [📂 Session 05 Lab](./session-05-tool-augmented-agents/) |
-| **06** | **Multi-Agent Systems & Audit** | Supervisor-worker patterns, reflection (Reflexion), enterprise data governance (`M6-final-capstone`) | [📂 Session 06 Lab](./session-06-multi-agent-systems/) |
+| # | Date | Session Topic & Objectives | Tools Covered | Instructor(s) | Lab Link / Status |
+|:---:|:---|:---|:---|:---|:---:|
+| **1** | **Sat, Oct 3, 2026** | **Foundations:** What agents and automations are; agent anatomy (model, tools, memory, instructions); workflow vs. agent; real admin and operations examples. | ChatGPT, Claude, Microsoft Copilot, Gemini | Mousa AL-Akhras<br>Mohammed Abdelmajeed | [⭐ Session 01 Lab](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab) |
+| **2** | **Mon, Oct 5, 2026** | **Prompting for Operators:** Roles, context, structured outputs, reusable prompt templates; AI assistants with projects and files. | ChatGPT Projects / Custom GPTs, Claude Projects, Copilot, Google AI Studio | **Robina Mirbahar** | [📂 Session 02 Lab](./session-02-prompting-for-operators/) |
+| **3** | **Wed, Oct 7, 2026** | *To be announced* | *TBA* | Abedal-Kareem Al-Banna<br>Mohammed Abdelmajeed | ⏳ Upcoming |
+| **4** | **Sat, Oct 10, 2026** | *To be announced* | *TBA* | Abedal-Kareem Al-Banna<br>Mohammed Abdelmajeed | ⏳ Upcoming |
+| **5** | **Mon, Oct 12, 2026** | *To be announced* | *TBA* | Mohammed Abdelmajeed | ⏳ Upcoming |
+| **6** | **Wed, Oct 14, 2026** | *To be announced* | *TBA* | Mohammed Abdelmajeed | ⏳ Upcoming |
+| **7** | **Sat, Oct 17, 2026** | *To be announced* | *TBA* | **Robina Mirbahar** | ⏳ Upcoming |
+| **8** | **Mon, Oct 19, 2026** | *To be announced* | *TBA* | Mohammed Abdelmajeed | ⏳ Upcoming |
+| **9** | **Wed, Oct 21, 2026** | *To be announced* | *TBA* | Mohammed Abdelmajeed | ⏳ Upcoming |
+| **10** | **Sat, Oct 24, 2026** | *To be announced* | *TBA* | Mousa AL-Akhras | ⏳ Upcoming |
+| **11** | **Mon, Oct 26, 2026** | *To be announced* | *TBA* | Mousa AL-Akhras | ⏳ Upcoming |
+| **12** | **Wed, Oct 28, 2026** | *To be announced* | *TBA* | **Robina Mirbahar** | ⏳ Upcoming |
+| **13** | **Sat, Oct 30, 2026** | **Capstone Project** *(Details to be announced)* | *TBA* | Abedal-Kareem Al-Banna<br>Mousa AL-Akhras | ⏳ Upcoming |
+| **14** | **Mon, Nov 6, 2026** | **Final Exam & Certification** *(Details to be announced)* | *TBA* | Abedal-Kareem Al-Banna<br>Mousa AL-Akhras | 🎓 Certification |
 
 ---
-
-## 🗂️ Repository Directory Structure
-
-```text
-ai-administrator-labs/
-│
-├── README.md                                  <-- Master course overview & roadmap
-│
-├── session-01-exploring-agents/               <-- Day 1, Session 1
-│   ├── README.md                              <-- Lab instructions (Agent vs. Automation)
-│   ├── assets/                                <-- Architecture diagrams & screenshots
-│   └── deliverable-template/                  <-- M1-task-inventory template (.xlsx)
-│
-├── session-02-prompting-for-operators/        <-- Day 1, Session 2
-│   ├── README.md                              <-- Lab instructions (5-Part Prompt & Grounding)
-│   ├── policies/                              <-- Dummy HR and Travel policies (.txt)
-│   ├── images/                                <-- AI Studio execution screenshots
-│   └── deliverable-template/                  <-- M2-prompt-library template (.docx)
-│
-├── session-03-workflow-mapping/               <-- Day 2, Sessions 3 & 4
-│   ├── README.md                              <-- Flowcharting & SOP translation
-│   └── templates/                             <-- Process decomposition diagrams
-│
-├── session-04-n8n-automation-pipelines/       <-- Day 3, Sessions 5 & 6
-│   ├── README.md                              <-- Background automation & webhooks
-│   └── workflows/                             <-- Reusable n8n workflow exports (.json)
-│
-├── session-05-tool-augmented-agents/          <-- Day 4, Sessions 7 & 8
-│   ├── README.md                              <-- Function calling & tool permissions
-│   └── mock-apis/                             <-- Sandboxed operational endpoints
-│
-└── session-06-multi-agent-systems/            <-- Day 5 & 6, Sessions 9 to 12
-    ├── README.md                              <-- Supervisor-critic patterns & CAMEL
-    └── evaluation-bench/                      <-- Automated evaluation scorecards
-```
 
 ---
 
@@ -137,7 +110,7 @@ For each session, complete the designated lab and upload your artifact into the 
   <tr>
     <td width="50%" valign="top">
       <h3>👩‍🏫 Robina Mirbahar</h3>
-      <p><b>Lead Instructor</b><br>
+      <p><b>Instructor</b><br>
       Google Developer Expert (GDE) in Machine Learning & Cloud · Multi-Cloud Solutions Architect · Women Techmakers Ambassador</p>
       <p>
         <a href="mailto:mallah.robina@gmail.com"><img src="https://img.shields.io/badge/Email-mallah.robina%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
