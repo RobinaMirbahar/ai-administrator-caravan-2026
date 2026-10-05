@@ -40,7 +40,7 @@ Participants progress from understanding raw LLM boundaries to building producti
 | # | Date | Session Topic & Objectives | Tools Covered | Instructor(s) | Lab Link / Status |
 |:---:|:---|:---|:---|:---|:---:|
 | **1** | **Sat, Oct 3, 2026** | **Foundations:** What agents and automations are; agent anatomy (model, tools, memory, instructions); workflow vs. agent; real admin and operations examples. | ChatGPT, Claude, Microsoft Copilot, Gemini | Mousa AL-Akhras<br>Mohammed Abdelmajeed | [⭐ Session 01 Lab](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab) |
-| **2** | **Mon, Oct 5, 2026** | **Prompting for Operators:** Roles, context, structured outputs, reusable prompt templates; AI assistants with projects and files. | ChatGPT Projects / Custom GPTs, Claude Projects, Copilot, Google AI Studio | **Robina Mirbahar** | [📂 Session 02 Lab](./session-02-prompting-for-operators/) |
+| **2** | **Mon, Oct 5, 2026** | **Prompting for Operators:** Roles, context, structured outputs, reusable prompt templates; AI assistants with projects and files. | ChatGPT Projects / Custom GPTs, Claude Projects, Copilot, Google AI Studio | **Robina Mirbahar** | [📂 Session 02 Lab](./session-02-prompting-for-operators/)<br>[📋 M2-Prompt-Library](./M2-prompt-library/) |
 | **3** | **Wed, Oct 7, 2026** | *To be announced* | *TBA* | Abedal-Kareem Al-Banna<br>Mohammed Abdelmajeed | ⏳ Upcoming |
 | **4** | **Sat, Oct 10, 2026** | *To be announced* | *TBA* | Abedal-Kareem Al-Banna<br>Mohammed Abdelmajeed | ⏳ Upcoming |
 | **5** | **Mon, Oct 12, 2026** | *To be announced* | *TBA* | Mohammed Abdelmajeed | ⏳ Upcoming |
@@ -55,7 +55,6 @@ Participants progress from understanding raw LLM boundaries to building producti
 | **14** | **Mon, Nov 6, 2026** | **Final Exam & Certification** *(Details to be announced)* | *TBA* | Abedal-Kareem Al-Banna<br>Mousa AL-Akhras | 🎓 Certification |
 
 ---
-
 ---
 
 ## 🛠️ Required Platforms & Zero-Code Tooling
