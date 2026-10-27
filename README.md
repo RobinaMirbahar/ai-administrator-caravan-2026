@@ -1,6 +1,43 @@
 
 
 # 🏛️ IEEE CS Region 8 AI Caravan 2026
+
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Official Hands-On Labs, Agentic Workflows & Enterprise AI Governance Track Led by Robina Mirbahar (Pakistan Lead)
+
+---
+
+## 🎯 Why I Built IEEE Computer Society Region 8 AI Caravan 2026 — Official Hands-On Curriculum (Engineering Purpose & Real-World Value)
+
+### 1. 🌍 Empowering Engineers & Students Across IEEE Region 8 & Pakistan
+As the Pakistan Lead for the IEEE Computer Society Region 8 AI Caravan 2026, I architected this curriculum repository to bridge university theory and production AI engineering.
+
+### 2. 🛠️ Hands-On Agentic Workflows Over Passive Slides
+I designed every module around practical lab exercises—teaching participants how to distinguish deterministic automation from autonomous LLM agents, audit failure modes, and deploy grounded tools.
+
+### 3. 📐 Standardized Rubrics & Task Inventories
+Includes structured worksheets, evaluation checklists, and reference implementations for instructors and learners.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph Track ["1. IEEE AI Caravan 2026 Curriculum"]
+        S1["Session 01: AI Agents vs Deterministic Automation"]
+        S2["Session 02: Grounded RAG, Tool Calling & MCP"]
+        S3["Session 03: Production Guardrails, FinOps & Cloud Run"]
+    end
+    subgraph Lab ["2. Hands-On Student Deliverables"]
+        L_Inv["Task Inventory & Risk Classification Matrix"]
+        L_Agent["Deployed Multi-Tool Agent Prototype"]
+    end
+    S1 --> S2 --> S3 --> L_Inv --> L_Agent
+```
+
+---
+
 ## **AI Administrator: Agentic Workflows & Automation**
 ### 🚀 Official Master Curriculum, Hands-On Labs & Operational Test Benches
 
@@ -197,3 +234,22 @@ This training initiative is officially coordinated, hosted, and supported under 
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
