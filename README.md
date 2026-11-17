@@ -48,7 +48,7 @@ flowchart TD
 [![Official Activity Portal](https://img.shields.io/badge/Official_Portal-aicaravan.org%2Fai--administrator-002855?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.aicaravan.org/activities/ai-administrator)
 
 [![Track Duration](https://img.shields.io/badge/Duration-28_Hours_Intensive-E11D48?style=flat-square)](https://www.aicaravan.org/activities/ai-administrator)
-[![Platform](https://img.shields.io/badge/Lab_Platform-Google_AI_Studio-4285F4?style=flat-square&logo=google&logoColor=white)](https://aistudio.google.com/)
+[![Platform](https://img.shields.io/badge/Lab_Platform-Google_AI_Studio-4285F4?style=flat-square&logo=google&logoColor=white)](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)
 [![Automation](https://img.shields.io/badge/Automation-n8n_Engine-EA4B71?style=flat-square&logo=n8n&logoColor=white)](https://n8n.io/)
 [![Summit Pathway](https://img.shields.io/badge/Pathway-2nd_Region_8_AI_Summit-FFA500?style=flat-square)](https://aicaravan.org)
 
@@ -98,7 +98,7 @@ Participants progress from understanding raw LLM boundaries to building producti
 
 All exercises are designed to run in cloud-hosted web interfaces without local installation overhead:
 
-1. **[Google AI Studio](https://aistudio.google.com/):** Free developer sandbox for testing Gemini models, system instructions, document grounding, and temperature tuning.
+1. **[Google AI Studio](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco):** Free developer sandbox for testing Gemini models, system instructions, document grounding, and temperature tuning.
 2. **[n8n Automation Engine](https://n8n.io/):** Node-based workflow automation platform (Cloud or Desktop).
 3. **Spreadsheet Application:** Google Sheets or Microsoft Excel for building evaluation test benches.
 4. **GitHub Account:** To fork this repository, submit lab deliverables, and participate in technical discussions.
