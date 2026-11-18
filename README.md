@@ -34,13 +34,6 @@ flowchart TD
         L_Agent["Deployed Multi-Tool Agent Prototype"]
     end
     S1 --> S2 --> S3 --> L_Inv --> L_Agent
-    style Track fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style S1 fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style S2 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style S3 fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Lab fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style L_Inv fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style L_Agent fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
 ```
 
 ---
