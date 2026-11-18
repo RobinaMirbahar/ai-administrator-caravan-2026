@@ -2,8 +2,10 @@
 
 # 🏛️ IEEE CS Region 8 AI Caravan 2026
 
+> **IEEE Computer Society Region 8 AI Caravan 2026 — Official Hands-On Curriculum (Pakistan Lead)**  
 > **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
-> **Focus:** Official Hands-On Labs, Agentic Workflows & Enterprise AI Governance Track Led by Robina Mirbahar (Pakistan Lead)
+> 📚 **Companion Lab Repository:** [Session 01 Hands-On Lab (i-administrator-session-01-lab)](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab)  
+> **Core Stack:** [Google Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco), Agentic Workflow Rubrics, and Enterprise AI Governance Frameworks.
 
 ---
 
